@@ -171,6 +171,7 @@
 
     {
         "class": "tab_label",
+        "font.face": "InputSansCondensed-ExtraLight",
         "fade": true,
         "fg": [101, 115, 127] // 03
     },
@@ -397,11 +398,13 @@
     // General labels
     {
         "class": "label_control",
+        "font.face": "InputSansCondensed-Regular",
         "color": [140, 145, 156] // 03-04
     },
     // Text field labels
     {
         "class": "label_control",
+        "font.face": "InputSansCondensed-Regular",
         "parents": [{"class": "panel_control"}]
     },
     // Button labels
@@ -409,6 +412,7 @@
         "class": "label_control",
         "parents": [{"class": "button_control"}],
         "font.bold": true,
+        "font.face": "InputSansNarrow-Regular",
         "color": [180, 142, 173] // 0E
 
     },
@@ -500,6 +504,7 @@
     {
         "class": "sidebar_heading",
         "color": [167, 173, 186], // 04
+        "font.face": "InputSansCondensed-ExtraLight",
         "font.bold": true
     },
     {
@@ -536,6 +541,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
+        "font.face": "InputSansNarrow-Light",
         "color": [140, 145, 156] // 03-04
     },
     {
@@ -892,6 +898,7 @@
     },
     {
         "class": "quick_panel_label",
+        "font.face": "InputSansNarrow-Light",
         "fg": [101, 115, 126, 255], // 03
         "match_fg": [79, 91, 102, 255], // 02
         "selected_fg": [79, 91, 102, 255], // 02
@@ -899,6 +906,7 @@
     },
     {
         "class": "quick_panel_path_label",
+        "font.face": "InputSansCondensed-ExtraLight",
         "fg": [167, 173, 186, 255], // 04
         "match_fg": [140, 145, 156], // 03-04
         "selected_fg": [140, 145, 156], // 03-04
@@ -906,6 +914,7 @@
     },
     {
         "class": "quick_panel_score_label",
+        "font.face": "InputSansNarrow-Light",
         "fg": [167, 173, 186, 255], // 04
         "selected_fg": [140, 145, 156] // 03-04
     },
