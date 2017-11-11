@@ -20,23 +20,23 @@
 				<key>activeGuide</key>
 				<string>#B3B2B1</string>
 				<key>background</key>
-				<string>#FAFAFA</string>
+				<string>#eff1f5</string>
 				<key>caret</key>
 				<string>#FF6A00</string>
 				<key>findHighlight</key>
 				<string>#A37ACC</string>
 				<key>findHighlightForeground</key>
-				<string>#FAFAFA</string>
+				<string>#eff1f5</string>
 				<key>foreground</key>
 				<string>#6E7580</string>
 				<key>guide</key>
 				<string>#D9D8D7</string>
 				<key>gutter</key>
-				<string>#FAFAFA</string>
+				<string>#eff1f5</string>
 				<key>gutterForeground</key>
 				<string>#D9D8D7</string>
 				<key>inactiveBackground</key>
-				<string>#FAFAFA</string>
+				<string>#eff1f5</string>
 				<key>inactiveSelection</key>
 				<string>#F0EEE488</string>
 				<key>invisibles</key>
