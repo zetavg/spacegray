@@ -23,6 +23,24 @@
         "settings": ["mouse_wheel_switches_tabs"],
         "mouse_wheel_switch": true
     },
+    {
+        "class": "scroll_tabs_right_button"
+    },
+    {
+        "class": "scroll_tabs_left_button"
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "content_margin": 8,
+        "layer0.opacity": 1,
+        "layer0.texture": "Theme - Spacegray/assets/fold-down.png",
+        "layer0.tint": [101, 115, 126] // 03
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "layer0.tint": [167, 173, 186], // 04
+    },
     // Tab element
     {
         "class": "tab_control",
@@ -429,6 +447,10 @@
         "class": "status_button",
         "min_size": [92, 0]
     },
+    {
+        "class": "panel_button_control",
+        "content_margin": [3, 7]
+    },
     // Status bar label
     {
         "class": "label_control",
@@ -455,7 +477,7 @@
         "row_padding": [8,4],
         "indent": 12,
         "indent_offset": 14,
-        "indent_top_level": false,
+        "indent_top_level": true,
         "dark_content": true
     },
     // Sidebar rows
@@ -804,7 +826,19 @@
         // "layer0.texture": "",
         "layer0.tint": [28, 31, 38], // -01
         "layer0.opacity": 1,
-        "content_margin": 6
+        "content_margin": [4, 1, 4, 1]
+    },
+    {
+        "class": "text_line_control",
+        "parents": [{ "class": "panel_control" }],
+        "layer0.tint": [43, 48, 59], // 00
+        "color_scheme_tint": [43, 48, 59],  // 00
+        "layer0.opacity": 1,
+        "content_margin": [4, 1, 4, 1]
+    },
+    {
+        "class": "dropdown_button_control",
+        "content_margin": [16, 12]
     },
 
 //
@@ -818,7 +852,7 @@
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1,
         "layer0.tint": [28, 31, 38], // -00
-        "content_margin": 0
+        "content_margin": [0, 2]
     },
     // Quick panel background
     {
