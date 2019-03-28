@@ -41,11 +41,25 @@
 				<key>selection</key>
 				<string>#4f5b66</string>
 				<key>guide</key>
-				<string>#3b5364</string>
+				<string>#343d46</string>
 				<key>activeGuide</key>
-				<string>#96b5b4</string>
+				<string>#414651</string>
 				<key>stackGuide</key>
 				<string>#343d46</string>
+				<key>highlight</key>
+				<string>#9ba0a9</string>
+				<key>find_highlight</key>
+				<string>#ffe792</string>
+				<key>find_highlight_foreground</key>
+				<string>#2b303b</string>
+				<key>line_diff_width</key>
+				<string>2</string>
+				<key>line_diff_added</key>
+				<string>#a3be8c</string>
+				<key>line_diff_modified</key>
+				<string>#b48ead</string>
+				<key>line_diff_deleted</key>
+				<string>#bf616a</string>
 			</dict>
 		</dict>
 		<dict>
@@ -193,13 +207,26 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Strings, Inherited Class</string>
+			<string>Strings</string>
 			<key>scope</key>
-			<string>string, constant.other.symbol, entity.other.inherited-class</string>
+			<string>string, constant.other.symbol</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#a3be8c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Inherited Class</string>
+			<key>scope</key>
+			<string>entity.other.inherited-class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a3be8c</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -544,57 +571,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>GitGutter deleted</string>
+			<string>SublimeLinter Warning</string>
 			<key>scope</key>
-			<string>markup.deleted.git_gutter</string>
+			<string>sublimelinter.mark.warning</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#DDB700DD</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>GitGutter inserted</string>
+			<string>SublimeLinter Error</string>
 			<key>scope</key>
-			<string>markup.inserted.git_gutter</string>
+			<string>sublimelinter.mark.error</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A6E22E</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>GitGutter changed</string>
-			<key>scope</key>
-			<string>markup.changed.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#967EFB</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>GitGutter ignored</string>
-			<key>scope</key>
-			<string>markup.ignored.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#565656</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>GitGutter untracked</string>
-			<key>scope</key>
-			<string>markup.untracked.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#565656</string>
+				<string>#D02000DD</string>
 			</dict>
 		</dict>
 	</array>
