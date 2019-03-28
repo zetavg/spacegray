@@ -70,13 +70,6 @@
         "layer0.texture": "",
         "layer0.tint": [43, 48, 59] // 00
     },
-    // Tab dirty state (close button hidden)
-    {
-        "class": "tab_control",
-        "settings": ["!show_tab_close_buttons"],
-        "attributes": ["dirty"],
-        "content_margin": [12,3,7,3]
-    },
 
 //
 // TAB BUTTONS
@@ -1219,6 +1212,17 @@
         "class": "tabset_control",
         "settings": ["spacegray_tabs_xlarge"],
         "tab_height": 40
+    },
+
+//
+// TITLE BAR
+//
+
+    {
+        "class": "title_bar",
+        "settings": ["!disable_custom_title_bar"],
+        "fg": [167, 173, 186], // 04
+        "bg": [28, 31, 38] // -00
     }
 
 ]
