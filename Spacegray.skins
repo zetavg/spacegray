@@ -1,0 +1,32 @@
+{
+  "Spacegray Dark":
+  {
+    "Preferences":
+    {
+      "theme": "Spacegray.sublime-theme",
+      "color_scheme": "base16-ocean.dark.tmTheme",
+      "font_face": "InputMono-ExtraLight",
+      "font_size": 16.5
+    }
+  },
+  "Spacegray Dark - Highlighted":
+  {
+    "Preferences":
+    {
+      "theme": "Spacegray.sublime-theme",
+      "color_scheme": "base16-ocean.dark.highlighted.tmTheme",
+      "font_face": "InputMono-ExtraLight",
+      "font_size": 16.5
+    }
+  },
+	"Spacegray Light":
+	{
+		"Preferences":
+		{
+      "theme": "Spacegray Light.sublime-theme",
+			"color_scheme": "github.tmTheme",
+			"font_face": "InputMono-Light",
+			"font_size": 16.5
+		}
+	}
+}
