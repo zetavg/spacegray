@@ -24,7 +24,7 @@
 		"Preferences":
 		{
       "theme": "Spacegray Light.sublime-theme",
-			"color_scheme": "github.tmTheme",
+			"color_scheme": "Solarized (light).sublime-color-scheme",
 			"font_face": "InputMono-Light",
 			"font_size": 16.5
 		}
