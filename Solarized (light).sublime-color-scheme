@@ -3,22 +3,31 @@
     "author": "Koen Lageveen",
     "variables":
     {
-        "base03":  "#002b36",
+        "base03-o":"#002b36",
+        "base03":  "#1c1c1c",
         "base02":  "#073642",
-        "base01":  "#586e75",
-        "base00":  "#657b83",
+        "base01-o":"#586e75",
+        "base01":  "#4c5b67",
+        "base00-o":"#657b83",
+        "base00":  "#47575c",
         "base0":   "#839496",
         "base1":   "#93a1a1",
-        "base2":   "#eee8d5",
-        "base3":   "#fdf6e3",
-        "yellow":  "#b58900",
+        "base2-o": "#eee8d5",
+        "base2":   "#eff1f5",
+        "base3-o": "#fdf6e3",
+        "base3":   "#f9fafb",
+        "yellow-o":"#b58900",
+        "yellow":  "#a27a02",
         "orange":  "#cb4b16",
         "red":     "#dc322f",
         "magenta": "#d33682",
-        "violet":  "#6c71c4",
-        "blue":    "#268bd2",
+        "violet-o":"#6c71c4",
+        "violet":  "#4f55c4",
+        "blue-o":  "#198ee1",
+        "blue":    "#1283d3",
         "cyan":    "#2aa198",
-        "green":   "#859900",
+        "green-o": "#859900",
+        "green":   "#7c8f00",
     },
     "globals":
     {
@@ -26,6 +35,7 @@
         "foreground": "var(base00)",
         "line_highlight": "var(base2)",
         "gutter": "var(base2)",
+        "gutter_foreground": "var(base1)",
         "minimap_border": "var(base2)",
 
         "caret": "var(base02)",
@@ -71,12 +81,12 @@
         {
             "name": "String",
             "scope": "string",
-            "foreground": "var(cyan)"
+            "foreground": "var(violet)"
         },
         {
             "name": "Regexp",
             "scope": "string.regexp",
-            "foreground": "var(cyan)"
+            "foreground": "var(violet)"
         },
         {
             "name": "Escape \\ char",
@@ -106,7 +116,7 @@
         {
             "name": "Keyword",
             "scope": "keyword",
-            "foreground": "var(green)"
+            "foreground": "var(orange)"
         },
         {
             "name": "Import",
@@ -225,7 +235,7 @@
         {
             "name": "Quoted String",
             "scope": "string.quoted.double, string.quoted.single",
-            "foreground": "var(cyan)"
+            "foreground": "var(violet)"
         },
         {
             "name": "Quotes",
@@ -325,7 +335,7 @@
         {
             "name": "C: include",
             "scope": "meta.preprocessor.c.include string.quoted.other.lt-gt.include.c, meta.preprocessor.c.include punctuation.definition.string.begin.c, meta.preprocessor.c.include punctuation.definition.string.end.c",
-            "foreground": "var(cyan)"
+            "foreground": "var(violet)"
         },
         {
             "name": "Other: Removal",
@@ -479,7 +489,7 @@
         },
         {
             "scope": "markup.heading, punctuation.definition.heading.markdown",
-            "foreground": "var(yellow)",
+            "foreground": "var(orange)",
             "font_style": "bold"
         },
         {
@@ -498,7 +508,7 @@
         },
         {
             "scope": "markup.underline.link.markdown, meta.link.reference constant.other.reference.link.markdown",
-            "foreground": "var(cyan)"
+            "foreground": "var(violet)"
         },
         {
             "scope": "constant.other.reference.link.markdown",

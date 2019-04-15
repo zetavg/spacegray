@@ -25,7 +25,7 @@
 		{
       "theme": "Spacegray Light.sublime-theme",
 			"color_scheme": "Solarized (light).sublime-color-scheme",
-			"font_face": "InputMono-Light",
+			"font_face": "InputMonoNarrow",
 			"font_size": 16.5
 		}
 	}
